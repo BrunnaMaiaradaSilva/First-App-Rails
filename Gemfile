@@ -13,12 +13,12 @@ end
 group :production do
   gem 'pg'
 end
-
+#Adding Authentication with Devise
 gem 'devise'
-
 gem 'carrierwave'
 gem 'mini_magick'
-
+#Adding Gravatar to your App
+gem 'gravtastic'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
